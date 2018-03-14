@@ -57,7 +57,7 @@ public class WindowTest {
         bottom.setLayout(botLayout);
 
         //Server Selector
-        String servers[] = {"North America", "Europe", "Korea/Japan", "Oceania", "South and Central America", "South East Asia"};
+        String servers[] = {"North America", "Europe", "Korea/Japan", "Oceania", "Asia", "South and Central America", "South East Asia"};
         JLabel serverLable = new JLabel("Server ");
         serverLable.setHorizontalAlignment(SwingConstants.RIGHT);
         JComboBox server = new JComboBox(servers);
